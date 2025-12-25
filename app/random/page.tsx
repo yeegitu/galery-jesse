@@ -4,7 +4,7 @@ import { Video, Image, Sparkles, Heart, Smile, Play } from "lucide-react";
 import { useState } from "react";
 
 export default function RandomPage() {
-  const [playingVideo, setPlayingVideo] = useState(null);
+  const [playingVideo, setPlayingVideo] = useState<number | null>(null);
 
   const videos = [
     {

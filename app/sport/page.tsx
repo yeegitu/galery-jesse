@@ -4,7 +4,7 @@ import { Trophy, Sparkles, Flame, Heart, Star } from "lucide-react";
 import { useState } from "react";
 
 export default function SportPage() {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   const sportItems = [
     {
